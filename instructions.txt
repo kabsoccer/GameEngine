@@ -1,0 +1,72 @@
+Gallery
+-------
+
+1. The GameEngine folder contains all the engine codes
+2. The index.html file inside the GameEngine folder is our gallery page, which leads to our games
+3. The Documentation.html file inside the GameEngine folder contains some essential getting started instructions and a list of features
+4. The LittleAlchemy sub-folder inside the GameEngine folder contains the codes for the Little Alchemy game
+5. The Snake sub-folder inside the GameEngine folder contains the codes for the Snake game
+6. The BubbleShooter sub-folder inside the GameEngine folder contains the codes for the Bubble Shooter game
+7. The LocalMultiplayerSnake sub-folder inside the GameEngine folder contains the codes for the Multiplayer Snake game (local version)
+8. The MultiplayerSnake sub-folder inside the GameEngine folder contains the codes for the Multiplayer Snake game (networked version)
+9. The CopsRobbers sub-folder inside the GameEngine folder contains the codes for the Cops and Robbers game
+
+
+LittleAlchemy Controls
+----------------------
+
+1. As provided in the sample game
+
+
+Snake Key Controls
+------------------
+
+1. Arrow keys for movement
+2. Space bar to toggle between smooth and step-by-step movement of the snake
+
+
+Bubble Shooter Controls
+-----------------------
+
+1. Click to shoot a bubble in the direction of the mouse.
+2. Grid shifts down with time; can be manually controlled with the down arrow key.
+
+
+Local Multiplayer Snake Key Controls
+------------------------------------
+
+1. Arrow keys for movement of Player 1, and WASD keys for Player 2.
+2. Space bar to toggle between smooth and step-by-step movement of the snake.
+
+
+Networked Multiplayer Snake Key Controls
+----------------------------------------
+
+1. Arrow keys for movement of both Player 1 and Player 2.
+2. Space bar to toggle between smooth and step-by-step movement of the snake.
+
+[Player 1 waits for Player 2 to connect.]
+
+
+Cops and Robbers Key Controls
+-----------------------------
+
+1. Robber 1 is human player.
+2. Each robber, and cop takes turn.
+3. Arrow keys for movement of human player, any other key for remaining still in the next turn.
+4. Any entity may move in either of the four directions, or remain still in the next turn.
+5. Turn for the highlighted entity.
+
+
+Issues
+------
+
+1. In some browsers, like Microsoft Edge, directly opening the index.html files of our games from the file system may result in a failure to run
+	
+	a) Identified reason is the usage of the sessionStorage
+
+	b) Cure is to open our games through some web servers, like Apache; we have tested with xampp; it works in all browsers
+
+	c) Directly opening the index.html file works in Chrome
+
+2. Some random issues with networking.

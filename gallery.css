@@ -1,0 +1,35 @@
+body {
+    background-color: slategrey;
+    font-family: Calibri, sans-serif;
+}
+
+.header {
+    font-size: 50px;
+    text-align: center;
+    background-color: #8090a0;
+    border-radius: 10px;
+}
+
+.caption {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.image {
+    width: 400px;
+    height: 375px;
+    align-self: center;
+    padding-top: 25px;
+    background-color: #8090a0;
+    border-radius: 20px;
+}
+
+.image img {
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+td {
+    padding: 50px;
+}
